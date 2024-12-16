@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace AccessControlSystem
+namespace ConsoleApp1
 {
     public class UserManager
     {
