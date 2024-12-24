@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VF6oFE905Fp4Sg+DMuqQh90d/47+AKlnqmXfdLGqMVyyU2p8cldwlW1OdwfXH7XGpHLqvx3B0/vzwt/A+4hHbQ==",
+  "success": true,
+  "projectFilePath": "D:\\5 пз\\Solution1\\AccessControlSystem\\DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
