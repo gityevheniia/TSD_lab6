@@ -246,6 +246,15 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "DAL.Tests/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DAL.Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.Tests.dll": {}
+        }
       }
     }
   },
@@ -572,10 +581,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DAL.Tests/1.0.0": {
+      "type": "project",
+      "path": "../DAL.Tests/DAL.Tests.csproj",
+      "msbuildProject": "../DAL.Tests/DAL.Tests.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DAL.Tests >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.9"
     ]
   },
@@ -611,7 +626,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj": {
+              "projectPath": "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

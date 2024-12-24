@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "AccessControlSystem\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalogue", "Catalogue", "{90B5AA78-8F27-4851-9E15-B9883B7187F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{CAC12F00-AD7E-4659-A403-7D50D0B1DEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC12F00-AD7E-4659-A403-7D50D0B1DEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC12F00-AD7E-4659-A403-7D50D0B1DEC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CAC12F00-AD7E-4659-A403-7D50D0B1DEC0} = {90B5AA78-8F27-4851-9E15-B9883B7187F9}
+		{C1200BA7-FEAC-427D-AF67-7D0E65BA57CD} = {90B5AA78-8F27-4851-9E15-B9883B7187F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {854A5198-3553-4831-92D0-8CEFC58279FC}
