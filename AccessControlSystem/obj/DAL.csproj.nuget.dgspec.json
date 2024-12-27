@@ -32,11 +32,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj": {
-                "projectPath": "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -54,7 +50,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
@@ -101,21 +97,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj",
-        "projectName": "DAL.Tests",
-        "projectPath": "D:\\5 пз\\Solution1\\DAL.Tests\\DAL.Tests.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
       }
     }
   }

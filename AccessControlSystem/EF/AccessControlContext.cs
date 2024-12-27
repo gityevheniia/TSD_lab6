@@ -1,10 +1,5 @@
 ﻿using DAL.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.EF
 {
@@ -15,9 +10,16 @@ namespace DAL.EF
 
         public AccessControlContext(DbContextOptions<AccessControlContext> options) : base(options) { }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<AccessRequest>()
+                .HasOne<Pass>()
+                .WithMany()
+                .HasForeignKey(ar => ar.PassId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DAL.Repositories.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Repositories.Impl
 {
@@ -17,14 +14,32 @@ namespace DAL.Repositories.Impl
             _dbSet = context.Set<T>();
         }
 
-        public IEnumerable<T> GetAll() => _dbSet.ToList();
+        public IEnumerable<T> GetAll() => _dbSet.AsNoTracking().ToList();
 
+       
         public T GetById(int id) => _dbSet.Find(id);
 
-        public void Add(T entity) => _dbSet.Add(entity);
+        public void Add(T entity)
+        {
+            _dbSet.Add(entity);
+            SaveChanges(); 
+        }
 
-        public void Update(T entity) => _dbSet.Update(entity);
+        
+        public void Update(T entity)
+        {
+            _dbSet.Update(entity);
+            SaveChanges(); 
+        }
 
-        public void Delete(T entity) => _dbSet.Remove(entity);
+        
+        public void Delete(T entity)
+        {
+            _dbSet.Remove(entity);
+            SaveChanges(); 
+        }
+
+       
+        public void SaveChanges() => _context.SaveChanges();
     }
 }

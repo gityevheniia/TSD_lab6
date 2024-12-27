@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DAL.Entities
+﻿namespace DAL.Entities
 {
     public class AccessRequest
     {
@@ -13,6 +7,6 @@ namespace DAL.Entities
         public string RequestedZone { get; set; }
         public DateTime RequestDate { get; set; }
         public bool IsApproved { get; set; }
-        public string DenialReason { get; set; }
+        public string? DenialReason { get; set; }
     }
 }

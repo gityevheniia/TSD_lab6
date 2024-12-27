@@ -1,16 +1,25 @@
-﻿using DAL.Repositories.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DAL.EF;
+using DAL.Repositories.Impl;
+using DAL.Repositories.Interfaces;
 
 namespace DAL.UnitOfWork
 {
-    public interface IUnitOfWork : IDisposable
+    public class EFUnitOfWork : IUnitOfWork
     {
-        IPassRepository PassRepository { get; }
-        IAccessRequestRepository AccessRequestRepository { get; }
-        void Save();
+        private readonly AccessControlContext _dbContext;
+
+        public IPassRepository PassRepository { get; }
+        public IAccessRequestRepository AccessRequestRepository { get; }
+
+        public EFUnitOfWork(AccessControlContext dbContext)
+        {
+            _dbContext = dbContext;
+            PassRepository = new PassRepository(dbContext);
+            AccessRequestRepository = new AccessRequestRepository(dbContext);
+        }
+
+        public void Save() => _dbContext.SaveChanges();
+
+        public void Dispose() => _dbContext.Dispose();
     }
 }

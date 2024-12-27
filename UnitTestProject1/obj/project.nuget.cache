@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "dgSpecHash": "VAnTvI9X5otmoX/zsFoenBJ59+87XzVeK2iYvE+cuVywX4kVqtmt4ffFzW6LTu1LtUfRYMr6l8xuoH+Okb8KAA==",
+  "success": false,
+  "projectFilePath": "D:\\5 пз\\Solution1\\UnitTestProject1\\UnitTestProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.0\\microsoft.entityframeworkcore.inmemory.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 is not compatible with net472 (.NETFramework,Version=v4.7.2). Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 is not compatible with net472 (.NETFramework,Version=v4.7.2) / win. Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 is not compatible with net472 (.NETFramework,Version=v4.7.2) / win-arm64. Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2/win-arm64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 is not compatible with net472 (.NETFramework,Version=v4.7.2) / win-x64. Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 is not compatible with net472 (.NETFramework,Version=v4.7.2) / win-x86. Package Microsoft.EntityFrameworkCore.InMemory 6.0.0 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

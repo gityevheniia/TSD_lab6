@@ -1,14 +1,11 @@
 ﻿using DAL.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DAL.Repositories.Interfaces
 {
     public interface IPassRepository : IRepository<Pass>
     {
-        Pass GetByPassNumber(string passNumber);
+        Pass? GetByPassNumber(string passNumber);
+        IEnumerable<Pass> GetActivePasses();
+        void DeactivatePass(int passId);
     }
 }

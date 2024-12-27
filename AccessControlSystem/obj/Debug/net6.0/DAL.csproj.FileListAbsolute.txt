@@ -1,0 +1,15 @@
+D:\5 пз\Solution1\AccessControlSystem\bin\Debug\net6.0\DAL.deps.json
+D:\5 пз\Solution1\AccessControlSystem\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\5 пз\Solution1\AccessControlSystem\bin\Debug\net6.0\DAL.dll
+D:\5 пз\Solution1\AccessControlSystem\bin\Debug\net6.0\DAL.pdb
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.sourcelink.json
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.dll
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\refint\DAL.dll
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.pdb
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\5 пз\Solution1\AccessControlSystem\obj\Debug\net6.0\ref\DAL.dll
