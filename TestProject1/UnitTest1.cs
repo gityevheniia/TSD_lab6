@@ -20,6 +20,7 @@ namespace DAL.Tests
             var mockDbSet = new Mock<DbSet<Pass>>();
             mockContext.Setup(context => context.Set<Pass>()).Returns(mockDbSet.Object);
 
+
             var repository = new PassRepository(mockContext.Object);
             var expectedPass = new Pass { Id = 1, PassNumber = "12345", EmployeeName = "John Doe", IsActive = true };
 

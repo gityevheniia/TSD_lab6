@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/W7XYb6Eal+TlHSoigN6N1/AXjdPzzvwlBYiWCB5s4OhIa/gyZgawPDbYz4MtOlkOXCm69cIiLsFiVvAwQrCmA==",
+  "success": true,
+  "projectFilePath": "D:\\5 пз\\Solution1\\BBL\\BBL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\feiho\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
